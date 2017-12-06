@@ -1,0 +1,74 @@
+/*
+* @Author: apple
+* @Date:   
+* @Last Modified by:   apple
+* @Last Modified time: 2017-09-25 17:23:18
+*/
+
+@main-color: #f10215;
+
+#layout {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 640px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+// @main-color: #f23030;
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+    /* 防止移动页面被padding和border撑开滚动条 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    /* 当手指按住a的时候会有蓝色高亮背景色 */
+    -webkit-tap-highlight-color: transparent;
+}
+
+input {
+    border: 0;
+    /* 内边框 */
+    outline: 0;
+}
+
+img {
+    /* 让图片和文字对齐 不会出现图片底部3px的问题 */
+    vertical-align: middle;
+}
+
+i {
+    font-style: normal;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.bl{
+    border-left: 1px solid #ccc;
+}
+
+.br{
+    border-right: 1px solid #ccc;
+}
+.bt{
+    border-top: 1px solid #ccc;
+}
+.bb{
+    border-bottom: 1px solid #ccc;
+}
