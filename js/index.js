@@ -28,7 +28,7 @@ function searchEffect() {
 function countDownEffect() {
     var countBox = document.querySelector(".sk-time");
     var span = countBox.querySelectorAll("span");
-    var fetureDate = new Date(2017,11,7,1,0,0).getTime();
+    var fetureDate = new Date(2017,11,7,4,0,0).getTime();
     // console.log(fetureDate);
     var date = new Date().getTime();
     // console.log(date);
